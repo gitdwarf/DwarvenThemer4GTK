@@ -1,0 +1,4 @@
+include README.md
+include pyproject.toml
+recursive-include dwarventhemer4gtk/reset_theme_data *.css
+recursive-include dwarventhemer4gtk *.py
