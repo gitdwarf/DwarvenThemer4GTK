@@ -6,7 +6,7 @@ A pure GTK4 appearance manager with live preview, full system-theme compliance, 
 
 ## What Makes It Different
 
-lxappearance was the go-to GTK appearance manager for years. It is GTK3-based, has no live preview, and cannot handle GTK4 themes. DwarvenThemer4GTK is its GTK4 successor:
+lxappearance was the go-to GTK appearance manager for years. It is GTK3-based and cannot handle GTK4 themes. DwarvenThemer4GTK is its GTK4 successor, taking everything lxappearance did right (including live preview) and building on it natively in GTK4:
 
 - **Pure GTK4** - no GTK2/3 library dependency anywhere in the stack
 - **Live preview** - theme, colour, cursor, and font changes reflected immediately in the app itself
