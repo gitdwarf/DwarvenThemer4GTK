@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dwarventhemer4gtk"
+version = "1.0.0"
+description = "GTK4 appearance manager. Takes the crown from lxappearance. Pure GTK4, live preview, GTK3/2 downconversion."
+readme = "README.md"
+license = { text = "GPL-2.0-or-later" }
+requires-python = ">=3.9"
+keywords = [
+    "gtk4", "gtk3", "gtk2", "theme", "appearance", "lxappearance",
+    "cursor", "icons", "fonts", "desktop", "linux", "wayland", "x11"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: X11 Applications :: GTK",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Desktop Environment",
+    "Topic :: Desktop Environment :: Gnome",
+]
+
+[project.urls]
+Homepage = "https://github.com/gitdwarf/DwarvenThemer4GTK"
+Repository = "https://github.com/gitdwarf/DwarvenThemer4GTK"
+
+[project.scripts]
+dwarventhemer4gtk = "dwarventhemer4gtk.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+dwarventhemer4gtk = [
+    "reset_theme_data/themes/DwarvenReset/gtk-4.0/gtk.css",
+    "reset_theme_data/themes/Default/gtk-4.0/gtk.css",
+]
