@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dwarventhemer4gtk"
-version = "1.0.0"
+version = "1.0.1"
 description = "GTK4 appearance manager. Takes the crown from lxappearance. Pure GTK4, live preview, GTK3/2 downconversion."
 readme = "README.md"
 license = { text = "GPL-2.0-or-later" }
